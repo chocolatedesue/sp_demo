@@ -6,5 +6,9 @@ import lombok.Data;
 public class teacher {
     int tid;
     String name=null;
-
+    public teacher(String name ){
+//        this.setTid(tid);
+        this.setName(name);
+    }
+    public teacher(){};
 }

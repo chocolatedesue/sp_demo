@@ -5,4 +5,15 @@ spring:
     username: ccds
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
-
+  mail:
+    host: smtp.163.com
+    username: ccdesue@163.com
+    password: CTMZZXMTEOMQALMC
+  redis:
+    host: 192.168.50.16
+    port: 6379
+    database: 0
+  mvc:
+    pathmatch:
+#      http://localhost:8080/swagger-ui/index.html
+      matching-strategy: ant_path_matcher
